@@ -2,6 +2,7 @@ package task5_try2;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Stack;
 
 class Main{
     public static void main(String[] args) {
@@ -15,5 +16,7 @@ class Main{
         ArrayList<Integer> array = new ArrayList<>();
         array.add(1);
         array.add(2);
+        Stack<Integer> stack = new Stack<>();
+        stack.push(1);
     }
 }
