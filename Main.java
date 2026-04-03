@@ -1,5 +1,6 @@
 package task5_try2;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 class Main{
@@ -11,5 +12,8 @@ class Main{
         HashMap<Integer, String> romenum = new HashMap<>();
         romenum.put(1, "I");
         romenum.put(2,"II");
+        ArrayList<Integer> array = new ArrayList<>();
+        array.add(1);
+        array.add(2);
     }
 }
